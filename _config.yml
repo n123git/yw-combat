@@ -8,8 +8,6 @@ toggle_color_scheme: light
 aux_links:
   "Yo-gon Discord": https://discord.gg/dTmEhDVcPQ
 
-search_enabled: true
-
 kramdown:
   math_engine: katex
   parse_block_html: true
