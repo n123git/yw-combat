@@ -1,9 +1,8 @@
 title: yw-combat
 description: Technical documentation for the YW2 Battle system
 url: "https://n123git.github.io/yw-combat"
-
 theme: just-the-docs  # use remote_theme instead of theme
-
+color_scheme: dark  
 
 # Extra links (auxiliary)
 aux_links:
