@@ -98,7 +98,7 @@ where:
 - `40` is the total number of attempts  
 - `0.2` is the probability of success per attempt
 
-EVs are effort values which progress in a Yo-kai over time. The maximum amount of EVs per stat is 20 for normal EVs and 40 for HP EVs. Every time you reach a milestone in the amount of Attitude Points you have, the game rewards you with 2 EVs to allocate. Depending on your Yo-kai's Attitude either both will go to one stat or one will go to each stat.
+EVs are effort values which progress in a Yo-kai over time. The maximum amount of EVs per stat is 20 for normal EVs and 40 for HP EVs. Every time you reach a milestone in the amount of Attitude Points you have, the game rewards you with 2 EVs to allocate. Depending on your Yo-kai's Move Attitude either both will go to one stat or one will go to each stat.
 > Note: If for example 2 EVs are allocated towards HP the Yo-kai will actually end up with 4 more EV_HPs as HP IV/EVs are counted double.
 
 The Attitude Point (AP) milestones are as follows: 10, 20, 40, 60, 90, 120, 160, 200, 250, and 300. They can be found in `CHARA_ACT_TYPE_OFFSET_INFO` within charaparam (`romfs:/yw2_a.fa/data/res/character/chara_param_*.cfg.bin`)
