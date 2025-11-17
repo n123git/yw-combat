@@ -90,8 +90,9 @@ The probability for the game to designate **n IVs** for any particular stat has 
 > **Note:** This distribution is modeled using the following binomial formula:
 
 $$
-P(X = n) = \binom{40}{n} \cdot 0.2^n \cdot 0.8^{40-n}
+P(X = n) = \binom{40}{n} \, 0.2^n \cdot 0.8^{40-n}
 $$
+
 
 where:  
 - `n` is the number of IVs assigned to the stat  
