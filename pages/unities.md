@@ -12,14 +12,14 @@ They provide buffs to all active allies, with the buff(s) depending on the tribe
 
 | Tribe      | 2 Adjacent Yo-kai | 3 Adjacent Yo-kai | Buff                              |
 | ---------- | ----------------- | ----------------- | --------------------------------- |
-| Brave      | +15%             | +25%               | Strength (STR)                    |
-| Mysterious | +15%             | +25%               | Spirit (SPR)                      |
-| Tough      | +40%             | +60%               | Defense (DEF)                     |
-| Charming   | +10%             | +15%               | Speed (SPD)                       |
-| Heartful   | +15%             | +25%               | Healing                           |
-| Shady      | +30%             | +60%               | Chance to land negative inspirits |
-| Eerie      | +1               | +2                 | Inspirit level                    |
-| Slippery   | +20%             | +40%               | Chance to dodge enemy inspirits   |
+| Brave      | +15%              | +25%              | Strength (STR)                    |
+| Mysterious | +15%              | +25%              | Spirit (SPR)                      |
+| Tough      | +40%              | +60%              | Defense (DEF)                     |
+| Charming   | +10%              | +15%              | Speed (SPD)                       |
+| Heartful   | +15%              | +25%              | Healing                           |
+| Shady      | +30%              | +60%              | Chance to land negative inspirits |
+| Eerie      | +1                | +2                | Inspirit level                    |
+| Slippery   | +20%              | +40%              | Chance to dodge enemy inspirits   |
 
 ---
 
