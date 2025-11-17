@@ -10,7 +10,7 @@ They provide buffs to all active allies, with the buff(s) depending on the tribe
 
 ## Base Game Data
 
-| Tribe      | 2 Adjacent Yo-kai | 3 Adjacent Yo-kai | Buff                              |
+| Tribe      | 2 Adjacent Yo-kai | 3 Adjacent Yo-kai | Buff Type                         |
 | ---------- | ----------------- | ----------------- | --------------------------------- |
 | Brave      | +15%              | +25%              | Strength (STR)                    |
 | Mysterious | +15%              | +25%              | Spirit (SPR)                      |
