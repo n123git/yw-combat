@@ -1,5 +1,6 @@
 ---
 title: Tribe Unities
+layout: default
 nav_order: 1
 ---
 
