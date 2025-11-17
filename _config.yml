@@ -4,9 +4,6 @@ url: "https://n123git.github.io/yw-combat"
 
 theme: just-the-docs  # use remote_theme instead of theme
 
-# Dark mode
-dark_mode: true              # enable dark mode toggle
-dark_mode_default: true      # default to dark mode on page load
 
 # Extra links (auxiliary)
 aux_links:
@@ -15,4 +12,3 @@ aux_links:
 # Optional Just-the-Docs features
 search_enabled: true
 
-color_scheme: dark
