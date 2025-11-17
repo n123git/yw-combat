@@ -1,18 +1,13 @@
 title: yw-combat
 description: Technical documentation for the YW2 Battle system
-url: "https://n123git.github.io/yw-combat"
+url: "https://n123git.github.io"
 baseurl: "/yw-combat"
 
-# Theme configuration
-remote_theme: pmarsceill/just-the-docs  # use remote_theme instead of theme
-plugins:
-  - jekyll-remote-theme
+remote_theme: pmarsceill/just-the-docs
+dark_mode: true
+dark_mode_default: true
 
-# Dark mode
-dark_mode: true # enable dark mode toggle
-dark_mode_default: true # default to dark mode on page load
-
+# Just-the-Docs options
+search_enabled: true
 aux_links:
   "Yo-gon Discord": https://discord.gg/dTmEhDVcPQ
-
-search_enabled: true
