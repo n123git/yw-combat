@@ -15,8 +15,4 @@ aux_links:
 # Optional Just-the-Docs features
 search_enabled: true
 
-color_scheme: light
-toggle_color_scheme: dark
-toggle_auto_mode: true
-toggle_text_1: "-> Dark Mode"
-toggle_text_2: "-> Light Mode"
+color_scheme: dark
