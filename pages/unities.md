@@ -25,6 +25,15 @@ They provide buffs to all active allies, with the buff(s) depending on the tribe
 
 ## Modding Info
 Unity effects can be changed by editing `BTL_FRIEND_BONUS_INFO_LIST` within `romfs:/yw2_a.fa/data/res/battle_config_*.cfg.bin`.
+The tree's param is the `ChildCount` if you add a new entry to the tree increase this by 1. The `UnityEffectType`s in YW2 are as follows:
+* `1` - Increase STR by primary%
+* `2` - Increase SPR by primary%
+* `3` - Increase DEF by primary%
+* `4` - Increase SPD by primary%
+* `5` - Increase healing by primary%
+* `6` - Increase odds of landing a negative inspirit by primary%/secondary%?
+* `7` - Increase inspirit level by primary
+* `8` - Increase odds of dodging enemy inspirits by primary%
 
 ## Credits
 Credits to aj for discovering this!
