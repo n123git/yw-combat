@@ -108,5 +108,5 @@ These are HP, STR, SPR, DEF and SPD:
 * STR affects the damage output of Psychical damage which includes "Attack" attacks and Physical Soultimates.
 * SPR affects the damage output of Spiritual damage which includees "Technique" attacks and Spiritual Soultimates.
 * DEF lowers the amount of damage taken; this applies to both Physical and Spiritual damage.
-* SPD affects turn order and evasion rate.
+* SPD affects turn order and evasion rate. 
 
