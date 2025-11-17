@@ -1,8 +1,8 @@
-title: a
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: yw-combat
+description: Technical documentation for the YW2 Battle system
 theme: just-the-docs
 
 url: https://n123git.github.io/yw-combat
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Yo-gon Discord: https://discord.gg/dTmEhDVcPQ
