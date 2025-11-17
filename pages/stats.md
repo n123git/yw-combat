@@ -57,15 +57,16 @@ These stats are base modifiers unique to the *Yo-kai itself*.
 | Attitude Points |
 
 ### IVs, EVs and Attitudes
-lorem ipsum
+IVs are initial values given to a Yo-kai when created. The formula used for legal IVs are `(IV_HP / 2) + IV_STR + IV_SPR + IV_DEF + IV_SPD = 40`. 
+Auto-befriends have neutral IVs meaning 8 for all stats except HP which is 16 as HP IVs are counted as half in alot of calculations.
 
 ## Final Core Stats
 These are HP, STR, SPR, DEF and SPD:
 * HP increases the Player's Max HP
   * Max HP decides the limit and the initial value of the player's Current HP which decides how much damage (after calculations) can be taken before a yokai is "Dead". Dead yokai can be revived mid-battle using Medicine Items and automatically revive after a battle (at 1HP).
   * Current HP can be healed outside of a battle using Food items, Eyepo and Sleeping. During a battle it can be healed via skills, inspirits, souls, and Food items.
-* STR affects the damage output of Physical attacks.
-* SPR affects the damage output of Spirit (Spiritual) Attacks.
-* DEF lowers the amount of damage taken via a relative amount.
+* STR affects the damage output of Psychical damage which includes "Attack" attacks and Physical Soultimates.
+* SPR affects the damage output of Spiritual damage which includees "Technique" attacks and Spiritual Soultimates.
+* DEF lowers the amount of damage taken; this applies to both Physical and Spiritual damage.
 * SPD affects turn order and evasion rate.
 
