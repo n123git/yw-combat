@@ -112,6 +112,7 @@ Yo-kai have a maximum of 300 Attitude Points and can get them in the following w
 * 20 AP per Mega Exporb used
 * 30 AP per Holy Exporb used
   * Items use ItemEffect type 7 to reward AP in Yo-kai Watch 2 and Yo-kai Watch 1 with Yo-kai Watch 3 using type 6 to grant AP.
+  
 The most efficient method to grind AP is generally considered to be using 100 Small Exporbs which instantly gives the maximum of 300 AP.
 
 ## Final Core Stats
