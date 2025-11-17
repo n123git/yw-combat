@@ -57,8 +57,48 @@ These stats are base modifiers unique to the *Yo-kai itself*.
 | Attitude Points |
 
 ### IVs, EVs and Attitudes
-IVs are initial values given to a Yo-kai when created. The formula used for legal IVs are `(IV_HP / 2) + IV_STR + IV_SPR + IV_DEF + IV_SPD = 40`. 
+IVs are initial values given to a Yo-kai when created. The formula used for legal IVs are `(IV_HP / 2) + IV_STR + IV_SPR + IV_DEF + IV_SPD = 40`. This leads to an interesting side effect where all legal Yo-kai have an even amount of HP IVs.
+
 Auto-befriends have neutral IVs meaning 8 for all stats except HP which is 16 as HP IVs are counted as half in alot of calculations.
+The probability for the game to designate **n IVs** for any particular stat has been estimated (not confirmed yet) as follows:
+
+| IV Value       | Probability |
+|----------------|------------|
+| 0              | 0.013%     |
+| 1              | 0.133%     |
+| 2              | 0.648%     |
+| 3              | 2.052%     |
+| 4              | 4.745%     |
+| 5              | 8.541%     |
+| 6              | 12.456%    |
+| 7              | 15.125%    |
+| 8              | 15.598%    |
+| 9              | 13.865%    |
+| 10             | 10.745%    |
+| 11             | 7.326%     |
+| 12             | 4.426%     |
+| 13             | 2.383%     |
+| 14             | 1.149%     |
+| 15             | 0.498%     |
+| 16             | 0.195%     |
+| 17             | 0.069%     |
+| 18             | 0.022%     |
+| 19             | 0.006%     |
+| 20             | 0.002%     |
+| 21 or more     | 0.001%     |
+
+> **Note:** This distribution is modeled using the following binomial formula:
+
+$$
+P(X = n) = \binom{40}{n} \cdot 0.2^n \cdot 0.8^{40-n}
+$$
+
+where:  
+- `n` is the number of IVs assigned to the stat  
+- `40` is the total number of attempts  
+- `0.2` is the probability of success per attempt
+
+EVs are effort values which progress in a Yo-kai over time. The total maximum amount of EVs is 20
 
 ## Final Core Stats
 These are HP, STR, SPR, DEF and SPD:
