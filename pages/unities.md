@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Tribe Unities
-Tribe Unities are a mechanic that activates mid-battle when 2–3 *adjacent* Yo-kai *of the same tribe** occupy the **front line**.  
+Tribe Unities are a mechanic that activates mid-battle when there are 2–3 *adjacent*, *active* Yo-kai *of the same tribe*. This is checked for when the battle starts, the wheel turns or a Yo-kai is no longer active.  
 They provide buffs to all active allies, with the buff(s) depending on the tribe and the number of adjacent Yo-kai.  
 
 ## Base Game Data
